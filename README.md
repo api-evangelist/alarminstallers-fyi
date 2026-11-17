@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alarm Installers is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://alarminstallers.fyi
+Alarm Installers operates a network of alarm monitoring service providers across North America, offering a searchable marketplace that connects consumers with licensed alarm companies. The platform aggregates listings, provides detailed guides, and supplies a free read‑only API for accessing company data, locations, and service details without authentication.
+
+**Areas:** Company · Alarm · Monitoring · Marketplace · API
+
+## Alarm Installers on APIs.io
+
+Everything profiled for Alarm Installers is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alarminstallers-fyi/](https://apis.io/providers/alarminstallers-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Alarm Installers Academy API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-academy-api/) — The Academy API from Alarm Installers — 2 operation(s) for academy.
+- [Alarm Installers Admin API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-admin-api/) — The Admin API from Alarm Installers — 160 operation(s) for admin.
+- [Alarm Installers Categories API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-categories-api/) — The Categories API from Alarm Installers — 1 operation(s) for categories.
+- [Alarm Installers Certificates API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-certificates-api/) — The Certificates API from Alarm Installers — 1 operation(s) for certificates.
+- [Alarm Installers Listings API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-listings-api/) — The Listings API from Alarm Installers — 2 operation(s) for listings.
+- [Alarm Installers Places API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-places-api/) — The Places API from Alarm Installers — 1 operation(s) for places.
+- [Alarm Installers Product Categories API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-product-categories-api/) — The Product Categories API from Alarm Installers — 1 operation(s) for product categories.
+- [Alarm Installers Products API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-products-api/) — The Products API from Alarm Installers — 2 operation(s) for products.
+- [Alarm Installers Sources API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-sources-api/) — The Sources API from Alarm Installers — 1 operation(s) for sources.
+- [Alarm Installers Sponsor API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-sponsor-api/) — The Sponsor API from Alarm Installers — 2 operation(s) for sponsor.
+- [Alarm Installers Stats API](https://apis.io/apis/alarminstallers-fyi/alarminstallers-fyi-stats-api/) — The Stats API from Alarm Installers — 1 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Alarm Installers Agentic Access](https://apis.io/agentic-access/alarminstallers-fyi/alarminstallers-fyi-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Certificate](https://apis.io/schemas/alarminstallers-fyi/alarminstallers-fyi-certificate/)
+- [Course](https://apis.io/schemas/alarminstallers-fyi/alarminstallers-fyi-course/)
+- [CourseDetail](https://apis.io/schemas/alarminstallers-fyi/alarminstallers-fyi-course-detail/)
+- [Listing](https://apis.io/schemas/alarminstallers-fyi/alarminstallers-fyi-listing/)
+- [ListingItem](https://apis.io/schemas/alarminstallers-fyi/alarminstallers-fyi-listing-item/)
+- [Product](https://apis.io/schemas/alarminstallers-fyi/alarminstallers-fyi-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Alarminstallers Fyi Context](https://apis.io/jsonld/alarminstallers-fyi/alarminstallers-fyi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Alarm Installers API Rules](https://apis.io/rules/alarminstallers-fyi/alarminstallers-fyi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alarm Installers Domain Security](https://apis.io/security/alarminstallers-fyi/alarminstallers-fyi-domain-security/)
+- [Alarm Installers Vulnerability Disclosure](https://apis.io/security/alarminstallers-fyi/alarminstallers-fyi-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alarminstallers.fyi)
+- [Documentation](https://alarminstallers.fyi/developers)
+- [Getting started](https://alarminstallers.fyi/guides/choose-an-alarm-company)
+- [API reference](https://alarminstallers.fyi/api/v1/openapi.json)
+- [Support](https://alarminstallers.fyi/contact)
+- [Terms of service](https://alarminstallers.fyi/terms)
+- [Privacy policy](https://alarminstallers.fyi/privacy)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 17.0 |
+
+**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alarminstallers-fyi/](https://apis.io/providers/alarminstallers-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alarm Installers: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alarminstallers-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
